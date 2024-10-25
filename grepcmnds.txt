@@ -1,0 +1,15 @@
+find . -type f -name "*.txt"
+
+ls | grep "\.txt$"
+
+ls | grep '[0-9]'
+
+ls | grep '\.txt$'
+
+ls | grep -E '[0-9]'
+
+ls | grep -E '^.{4,}\.txt$'
+
+ls | grep -E '^[^AEIOUaeiou]'
+
+ls | grep -E '^[^AEIOUaeiou].{3,}[0-9].*\.txt$'
